@@ -24,6 +24,7 @@ debug = False
 class CGW15CPABE(ABEnc):
     def __init__(self, groupObj, assump_size, uni_size, verbose=False):
         ABEnc.__init__(self)
+        self.name = "CGW15 CP-ABE k=" + str(assump_size)
         self.group = groupObj
         self.assump_size = assump_size  # size of the linear assumption
         self.uni_size = uni_size  # bound on the size of the universe of attributes
