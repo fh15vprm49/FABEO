@@ -69,7 +69,7 @@ def run_all(pairing_group, policy_size, policy_str, attr_list,msg):
 
     n1,n2,m,i = get_par(pairing_group, policy_str, attr_list)
 
-    print('Running times for curve MNT224: n1={}  n2={}  m={}  I={}'.format(n1,n2,m,i))
+    print('Running times (ms) curve MNT224: n1={}  n2={}  m={}  I={}'.format(n1,n2,m,i))
     algo_string = 'KP-ABE {:<13}'.format('') + '  ' + algos[0] + '    ' + algos[1] + '     ' + algos[2] + '      ' + algos[3]
     print('-'*56)
     print(algo_string)

@@ -67,7 +67,7 @@ def run_all(pairing_group, alphabet, regex, x_string, msg):
 
     algos = ['Setup', 'KeyGen', 'Enc', 'Dec']
 
-    print('Running times for curve MNT224: |Q|={}  |T|={}  |F|={}  |x|={}'.format(q,t,f,ell))
+    print('Running times (ms) curve MNT224: |Q|={}  |T|={}  |F|={}  |x|={}'.format(q,t,f,ell))
     print(' - alphabet={}  regex={}  x={}'.format("(" + ", ".join(alphabet) + ")",regex,x_string))
     algo_string = 'Scheme {:<13}'.format('') + '  ' + algos[0] + '    ' + algos[1] + '     ' + algos[2] + '      ' + algos[3]
     print('-'*56)
