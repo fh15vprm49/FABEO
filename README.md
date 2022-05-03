@@ -1,4 +1,4 @@
-# FAMEO: Fast Attribute-based Encryption with Optimal Security
+# FABEO: Fast Attribute-based Encryption with Optimal Security
  
 This is the code repository accompanying our CCS '22 submission #673.
 
